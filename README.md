@@ -2,9 +2,9 @@
   <h1>DCT-Baileys</h1>
   <p>A Fast JavaScript library for interacting with the WhatsApp Web API</p>
   
-  [![npm version](https://img.shields.io/npm/v/fast-baileys.svg)](https://www.npmjs.com/package/fast-baileys)
-  [![npm downloads](https://img.shields.io/npm/dm/fast-baileys.svg)](https://www.npmjs.com/package/fast-baileys)
-  [![License](https://img.shields.io/npm/l/fast-baileys.svg)](https://github.com/dew-coders/fast-baileys/blob/main/LICENSE)
+  [![npm version](https://img.shields.io/npm/v/fast-baileys.svg)](https://www.npmjs.com/package/dct-baileys)
+  [![npm downloads](https://img.shields.io/npm/dm/fast-baileys.svg)](https://www.npmjs.com/package/dct-baileys)
+  [![License](https://img.shields.io/npm/l/fast-baileys.svg)](https://github.com/dew-coders/dct-baileys/blob/main/LICENSE)
   
   ![TypeScript](https://img.shields.io/badge/-%F0%9F%94%B7%20TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&labelColor=0D1117)
   ![JavaScript](https://img.shields.io/badge/-%F0%9F%94%B8%20JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=F7DF1E&labelColor=0D1117)
@@ -18,24 +18,24 @@ This project is not affiliated, associated, authorized, endorsed by, or in any w
 ## Installation
 
 ```bash
-npm install fast-baileys
+npm install dct-baileys
 ```
 
 Or using yarn:
 ```bash
-yarn add fast-baileys
+yarn add dct-baileys
 ```
 
 ## Quick Start
 
 ### CommonJS (Recommended)
 ```javascript
-const { default: makeWASocket, useMultiFileAuthState, Browsers } = require('fast-baileys')
+const { default: makeWASocket, useMultiFileAuthState, Browsers } = require('dct-baileys')
 ```
 
 ### ES Modules / TypeScript
 ```javascript
-import pkg from 'fast-baileys'
+import pkg from 'dct-baileys'
 const { default: makeWASocket, useMultiFileAuthState, Browsers } = pkg
 ```
 
@@ -60,4 +60,3 @@ Full documentation is available at [pair.srihub.store](https://pair.srihub.store
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%">
 </div>
-
